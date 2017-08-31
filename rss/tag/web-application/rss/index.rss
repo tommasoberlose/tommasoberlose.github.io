@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>web-application - Tommaso Berlose</title><description>Dont' panic, Organize!</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Tue, 25 Jul 2017 10:29:22 GMT</lastBuildDate><atom:link href="http://localhost:2368/tag/web-application/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Virtual Device Demo</title><description>&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/09/map-image-vdevice.png" alt="banner"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.spacebunny.io/"&gt;SpaceBunny&lt;/a&gt; is a managed cloud platform that makes it easy for your connected devices to easily and securely interact with applications or even with each other.&lt;br&gt;
+With SpaceBunny your applications can keep track of and communicate with all your devices even when they aren’t connected. &lt;br&gt;
+This demo shows how&lt;/p&gt;</description><link>http://localhost:2368/spacebunny-demos/</link><guid isPermaLink="false">001072cb-1913-48b4-aa3b-73aec3014dcf</guid><category>projects</category><category>web-application</category><category>android</category><category>spacebunny</category><dc:creator>Tommaso Berlose</dc:creator><pubDate>Tue, 06 Sep 2016 10:30:02 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/09/map-image-vdevice.png" alt="banner"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.spacebunny.io/"&gt;SpaceBunny&lt;/a&gt; is a managed cloud platform that makes it easy for your connected devices to easily and securely interact with applications or even with each other.&lt;br&gt;
+With SpaceBunny your applications can keep track of and communicate with all your devices even when they aren’t connected. &lt;br&gt;
+This demo shows how to connect your Android phone to SpaceBunny.&lt;/p&gt;
+
+&lt;div class="menu"&gt;  
+&lt;ul&gt;  
+&lt;li role="presentation"&gt;  
+&lt;a href="https://play.google.com/store/apps/details?id=com.fancypixel.spacebunny.vdevicedemo"&gt;VIRTUAL DEVICE APP&lt;/a&gt;  
+&lt;/li&gt;  
+&lt;li role="presentation"&gt;  
+&lt;a href="http://demoapps.spacebunny.io/virtual_device/index.html"&gt;VIRTUAL DEVICE WEB SITE&lt;/a&gt;  
+&lt;/li&gt;  
+&lt;li role="presentation"&gt;  
+&lt;a href="https://github.com/space-bunny/demos/tree/master/vdevice_demo/VDeviceDemo"&gt;GITHUB PROJECT&lt;/a&gt;  
+&lt;/li&gt;  
+&lt;/ul&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</content:encoded></item><item><title>NTasks Web Application</title><description>&lt;p&gt;Web application that allows editing and use of google tasks on each platform through the use of Google API. &lt;br&gt;
+Had also developed an &lt;a href="https://chrome.google.com/webstore/detail/ntasks/halmpagcnmffackcgoeaeidoiodblfmc"&gt;extension for chrome&lt;/a&gt;, was being created the Android app.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Language: html, css, jQuery&lt;br&gt;
+  Year: 2012&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tommasoberlose/NTasks"&gt;GitHub Project&lt;/a&gt; - &lt;a href="http://www.ntasks.altervista.org/"&gt;Demo&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/ntasks/</link><guid isPermaLink="false">08a839d1-8d39-4971-ae2d-975cf00e4ec1</guid><category>google-api</category><category>web-application</category><category>PHP</category><dc:creator>Tommaso Berlose</dc:creator><pubDate>Fri, 17 Jun 2016 10:16:58 GMT</pubDate><content:encoded>&lt;p&gt;Web application that allows editing and use of google tasks on each platform through the use of Google API. &lt;br&gt;
+Had also developed an &lt;a href="https://chrome.google.com/webstore/detail/ntasks/halmpagcnmffackcgoeaeidoiodblfmc"&gt;extension for chrome&lt;/a&gt;, was being created the Android app.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Language: html, css, jQuery&lt;br&gt;
+  Year: 2012&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tommasoberlose/NTasks"&gt;GitHub Project&lt;/a&gt; - &lt;a href="http://www.ntasks.altervista.org/"&gt;Demo&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss></html>

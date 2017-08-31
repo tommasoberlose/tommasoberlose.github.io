@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Tommaso Berlose]]></title><description><![CDATA[Dont' panic, Organize!]]></description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Tue, 25 Jul 2017 10:29:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Virtual Device Demo]]></title><description><![CDATA[<p><img src="http://localhost:2368/content/images/2016/09/map-image-vdevice.png" alt="banner"></p>
+
+<p><a href="http://www.spacebunny.io/">SpaceBunny</a> is a managed cloud platform that makes it easy for your connected devices to easily and securely interact with applications or even with each other.<br>
+With SpaceBunny your applications can keep track of and communicate with all your devices even when they aren’t connected. <br>
+This demo shows how</p>]]></description><link>http://localhost:2368/spacebunny-demos/</link><guid isPermaLink="false">001072cb-1913-48b4-aa3b-73aec3014dcf</guid><category><![CDATA[projects]]></category><category><![CDATA[web-application]]></category><category><![CDATA[android]]></category><category><![CDATA[spacebunny]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Tue, 06 Sep 2016 10:30:02 GMT</pubDate><content:encoded><![CDATA[<p><img src="http://localhost:2368/content/images/2016/09/map-image-vdevice.png" alt="banner"></p>
+
+<p><a href="http://www.spacebunny.io/">SpaceBunny</a> is a managed cloud platform that makes it easy for your connected devices to easily and securely interact with applications or even with each other.<br>
+With SpaceBunny your applications can keep track of and communicate with all your devices even when they aren’t connected. <br>
+This demo shows how to connect your Android phone to SpaceBunny.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.fancypixel.spacebunny.vdevicedemo">VIRTUAL DEVICE APP</a>  
+</li>  
+<li role="presentation">  
+<a href="http://demoapps.spacebunny.io/virtual_device/index.html">VIRTUAL DEVICE WEB SITE</a>  
+</li>  
+<li role="presentation">  
+<a href="https://github.com/space-bunny/demos/tree/master/vdevice_demo/VDeviceDemo">GITHUB PROJECT</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[Focus Notify]]></title><description><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner_1_1.png" alt="banner"></p>
+
+<p>Enter your notes between notifications and keep everything under control! <br>
+Use Focus Notify to add notes directly between notifications. <br>
+Enter comments, links and photos to remind you all that you need having everything under control.</p>
+
+<p>Notifications rapid, non-invasive with all actions at a tap.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/focus-lite">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.flite">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></description><link>http://localhost:2368/focus-notify/</link><guid isPermaLink="false">91e0f29b-59bf-4481-9d52-6c4714dc49d8</guid><category><![CDATA[projects]]></category><category><![CDATA[android]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Fri, 24 Jun 2016 16:41:27 GMT</pubDate><content:encoded><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner_1_1.png" alt="banner"></p>
+
+<p>Enter your notes between notifications and keep everything under control! <br>
+Use Focus Notify to add notes directly between notifications. <br>
+Enter comments, links and photos to remind you all that you need having everything under control.</p>
+
+<p>Notifications rapid, non-invasive with all actions at a tap.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/focus-lite">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.flite">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[Screen Off]]></title><description><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner-1.png" alt="banner"></p>
+
+<p>Simple and minimalistic app in material design that turn off screen by shortcuts, third party applications and notification. <br>
+Simple, no additional features, and elegant: do everything you need without tricks.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/screen-off">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.screenoff">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></description><link>http://localhost:2368/screen-off/</link><guid isPermaLink="false">5c6516a7-fea2-4113-9548-8fe299c76d7c</guid><category><![CDATA[projects]]></category><category><![CDATA[android]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Fri, 24 Jun 2016 16:41:15 GMT</pubDate><content:encoded><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner-1.png" alt="banner"></p>
+
+<p>Simple and minimalistic app in material design that turn off screen by shortcuts, third party applications and notification. <br>
+Simple, no additional features, and elegant: do everything you need without tricks.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/screen-off">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.screenoff">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[Wake Up]]></title><description><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner-2.png" alt="banner"></p>
+
+<p>Wake up your device when you get a notification. <br>
+Your smartphone has a lockscreen with the notification list but does not have the double tap to wake or a cool assistant? <br>
+Your smartphone does not have the LED pulsating and your display does not turn on the arrival of a</p>]]></description><link>http://localhost:2368/wake-up/</link><guid isPermaLink="false">039c1c7c-2b0c-4697-9e18-ab887ffac608</guid><category><![CDATA[projects]]></category><category><![CDATA[android]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Fri, 24 Jun 2016 16:40:56 GMT</pubDate><content:encoded><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner-2.png" alt="banner"></p>
+
+<p>Wake up your device when you get a notification. <br>
+Your smartphone has a lockscreen with the notification list but does not have the double tap to wake or a cool assistant? <br>
+Your smartphone does not have the LED pulsating and your display does not turn on the arrival of a notification? <br>
+Or your smartphone has all this and you still want to give us a chance ...</p>
+
+<p>Wake Up is a simple and usefull app that turn on the screen when you receive a notification. <br>
+It allows to decide whether to do it working even when the silent mode is active or when the device is in your pocket.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/wake-up">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.wakeup">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[Wallet]]></title><description><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner_y.png" alt="banner"></p>
+
+<p>Track your money! <br>
+Use Wallet to remember those who lend money or who do you pay. <br>
+Do not waste time thinking about your business, let there be Wallet to work for you.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/wallet">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.money">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></description><link>http://localhost:2368/wallet/</link><guid isPermaLink="false">c516b613-b996-41a6-bf14-368437abf391</guid><category><![CDATA[projects]]></category><category><![CDATA[android]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Fri, 24 Jun 2016 16:40:41 GMT</pubDate><content:encoded><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner_y.png" alt="banner"></p>
+
+<p>Track your money! <br>
+Use Wallet to remember those who lend money or who do you pay. <br>
+Do not waste time thinking about your business, let there be Wallet to work for you.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/wallet">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.money">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[Night Mode]]></title><description><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner.png" alt="banner"></p>
+
+<p>Activate night mode and turn off everything you do not need with a single tap. <br>
+Are you ready to sleep, you're about to start an important meeting or just do not want to be disturbed? <br>
+Turn off everything you do not need with a single tap.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/nightmode">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.nightmode">GOOGLE PLAY</a></li></ul></div>]]></description><link>http://localhost:2368/night-mode/</link><guid isPermaLink="false">2286c8c2-2aea-4d01-9228-fa53cf823e90</guid><category><![CDATA[projects]]></category><category><![CDATA[android]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Fri, 24 Jun 2016 16:40:23 GMT</pubDate><content:encoded><![CDATA[<p><img src="http://localhost:2368/content/images/2016/06/banner.png" alt="banner"></p>
+
+<p>Activate night mode and turn off everything you do not need with a single tap. <br>
+Are you ready to sleep, you're about to start an important meeting or just do not want to be disturbed? <br>
+Turn off everything you do not need with a single tap.</p>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/nightmode">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="https://play.google.com/store/apps/details?id=com.nego.nightmode">GOOGLE PLAY STORE</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[University Projects]]></title><description><![CDATA[<p>Projects developed during the three-year in Information Engineering and during the master's degree in Computer Science and Automation Engineering at the University of Ferrara.</p>
+
+<p><strong>Operative Research Project - Car Pooling</strong><br>
+The design of a car-pooling system on android platform and python webserver.  </p>
+
+<blockquote>
+  <p>Language: html, java, android, python, google maps API<br></p></blockquote>]]></description><link>http://localhost:2368/university-projects/</link><guid isPermaLink="false">1cfb7639-71d1-41f7-a6b8-9437d46efc2c</guid><category><![CDATA[projects]]></category><category><![CDATA[university]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 19 Jun 2016 14:03:27 GMT</pubDate><content:encoded><![CDATA[<p>Projects developed during the three-year in Information Engineering and during the master's degree in Computer Science and Automation Engineering at the University of Ferrara.</p>
+
+<p><strong>Operative Research Project - Car Pooling</strong><br>
+The design of a car-pooling system on android platform and python webserver.  </p>
+
+<blockquote>
+  <p>Language: html, java, android, python, google maps API<br>
+  Year: 2015</p>
+</blockquote>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/giulioribe/car-pooling">GITHUB PROJECT</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br> <br>
+<strong>Computer Graphics Project - World Game</strong><br>
+Through the use of Three.js library, it is implemented the movement of a car within a virtual space made with textures and blend models.  </p>
+
+<blockquote>
+  <p>Language: html, css, javascript, THREE.js<br>
+  Year: 2014</p>
+</blockquote>
+
+<p><br> <br>
+<strong>Web System Project - Atlas</strong><br>
+Designing a site for a cinema.  </p>
+
+<blockquote>
+  <p>Language: html, css, java, servlet java<br>
+  Year: 2013</p>
+</blockquote>]]></content:encoded></item><item><title><![CDATA[Web Site Portfolio]]></title><description><![CDATA[<p>List of the experience developed during personal study of the creation and management of web sites outside of the work done within the university. <br>
+Work done for both local reality that for more large-scale projects.</p>
+
+<p><strong>Studio Ingegneria Fiorini - Wordpress</strong><br>
+Website of <em>Studio Ingegneria Fiorini di Ferrara</em> <br>
+Year: 2016</p>
+
+<p><strong>Studio</strong></p>]]></description><link>http://localhost:2368/web-site-store/</link><guid isPermaLink="false">83b2659f-6551-4f21-8367-046ad64388d6</guid><category><![CDATA[projects]]></category><category><![CDATA[website]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 19 Jun 2016 11:11:00 GMT</pubDate><content:encoded><![CDATA[<p>List of the experience developed during personal study of the creation and management of web sites outside of the work done within the university. <br>
+Work done for both local reality that for more large-scale projects.</p>
+
+<p><strong>Studio Ingegneria Fiorini - Wordpress</strong><br>
+Website of <em>Studio Ingegneria Fiorini di Ferrara</em> <br>
+Year: 2016</p>
+
+<p><strong>Studio Ingegneria Fiorini - Joomla</strong><br>
+Website of <em>Studio Ingegneria Fiorini di Ferrara</em> <br>
+Year: 2014</p>
+
+<p><strong>Luca Brandola - Ditta Individuale</strong><br>
+Website of <em>Ditta Individuale Luca Brandola</em> <br>
+Year: 2014</p>
+
+<p><strong>Arcadya</strong><br>
+Front-end Programmer and tester for community Arcadya, developed within <a href="http://www.h-farm.com/">H-Farm</a> acceleration program. <br>
+Year: 2014</p>
+
+<p><strong>Agorà</strong><br>
+Website of the english company <em>Agorà</em> <br>
+Year: 2014</p>
+
+<p><strong>Kleb</strong><br>
+Website of the company <em>A.S.D. Kleb</em> <br>
+Year: 2013</p>
+
+<p><strong>AquaKleb</strong><br>
+Website of the company <em>A.S.D. AquaKleb</em> <br>
+Year: 2013</p>]]></content:encoded></item><item><title><![CDATA[NTasks Web Application]]></title><description><![CDATA[<p>Web application that allows editing and use of google tasks on each platform through the use of Google API. <br>
+Had also developed an <a href="https://chrome.google.com/webstore/detail/ntasks/halmpagcnmffackcgoeaeidoiodblfmc">extension for chrome</a>, was being created the Android app.</p>
+
+<blockquote>
+  <p>Language: html, css, jQuery<br>
+  Year: 2012</p>
+</blockquote>
+
+<p><a href="https://github.com/tommasoberlose/NTasks">GitHub Project</a> - <a href="http://www.ntasks.altervista.org/">Demo</a></p>]]></description><link>http://localhost:2368/ntasks/</link><guid isPermaLink="false">08a839d1-8d39-4971-ae2d-975cf00e4ec1</guid><category><![CDATA[google-api]]></category><category><![CDATA[web-application]]></category><category><![CDATA[PHP]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Fri, 17 Jun 2016 10:16:58 GMT</pubDate><content:encoded><![CDATA[<p>Web application that allows editing and use of google tasks on each platform through the use of Google API. <br>
+Had also developed an <a href="https://chrome.google.com/webstore/detail/ntasks/halmpagcnmffackcgoeaeidoiodblfmc">extension for chrome</a>, was being created the Android app.</p>
+
+<blockquote>
+  <p>Language: html, css, jQuery<br>
+  Year: 2012</p>
+</blockquote>
+
+<p><a href="https://github.com/tommasoberlose/NTasks">GitHub Project</a> - <a href="http://www.ntasks.altervista.org/">Demo</a></p>]]></content:encoded></item><item><title><![CDATA[PHP - Mail]]></title><description><![CDATA[<p>Very simple PHP script that can be included within a page to insert a mail manager. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP<br>
+  Year: 2010</p>
+</blockquote>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/php_mail">GITHUB PROJECT</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></description><link>http://localhost:2368/php-mail/</link><guid isPermaLink="false">6b424f18-af7f-4f7d-a94a-3aeab9d375bc</guid><category><![CDATA[projects]]></category><category><![CDATA[old-stuff]]></category><category><![CDATA[PHP]]></category><category><![CDATA[library]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 05 Jun 2016 11:24:00 GMT</pubDate><content:encoded><![CDATA[<p>Very simple PHP script that can be included within a page to insert a mail manager. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP<br>
+  Year: 2010</p>
+</blockquote>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/php_mail">GITHUB PROJECT</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[PHP - Slideshow]]></title><description><![CDATA[<p>Very simple PHP and JQuery script that can be included within a page to insert a slideshow. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP, css, JQuery<br>
+  Year: 2010</p>
+</blockquote>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/simple_slideshow">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="http://nego.altervista.org/SLIDE/slide1.php">DEMO</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></description><link>http://localhost:2368/php-slideshow/</link><guid isPermaLink="false">8714e83a-fdeb-43b3-b954-1c5d151b41f8</guid><category><![CDATA[projects]]></category><category><![CDATA[old-stuff]]></category><category><![CDATA[PHP]]></category><category><![CDATA[library]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 05 Jun 2016 11:22:00 GMT</pubDate><content:encoded><![CDATA[<p>Very simple PHP and JQuery script that can be included within a page to insert a slideshow. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP, css, JQuery<br>
+  Year: 2010</p>
+</blockquote>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/simple_slideshow">GITHUB PROJECT</a>  
+</li>  
+<li role="presentation">  
+<a href="http://nego.altervista.org/SLIDE/slide1.php">DEMO</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[PHP - Archivio]]></title><description><![CDATA[<p>Very simple PHP script that can be included within a page to use an archive. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP, css<br>
+  Year: 2010</p>
+</blockquote>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/php_archive">GITHUB PROJECT</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></description><link>http://localhost:2368/php-archivio/</link><guid isPermaLink="false">1d3cc5c2-c17d-45ea-b90e-fcb2c78e8e0f</guid><category><![CDATA[projects]]></category><category><![CDATA[old-stuff]]></category><category><![CDATA[PHP]]></category><category><![CDATA[library]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 05 Jun 2016 11:20:00 GMT</pubDate><content:encoded><![CDATA[<p>Very simple PHP script that can be included within a page to use an archive. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP, css<br>
+  Year: 2010</p>
+</blockquote>
+
+<div class="menu">  
+<ul>  
+<li role="presentation">  
+<a href="https://github.com/tommasoberlose/php_archive">GITHUB PROJECT</a>  
+</li>  
+</ul>  
+</div>
+
+<p><br><br></p>]]></content:encoded></item><item><title><![CDATA[PHP - Copyright]]></title><description><![CDATA[<p>Very simple PHP script that can be included within a page to update the copyright automatically. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP</p>
+  
+  <p>Year: 2010</p>
+</blockquote>
+
+<pre><code class="language-php">&lt;?  
+$nomesito = ""; /* Site's Name */
+$anno_0 = ""; /* Start year */
+$anno_0 = str_replace(" ", "", $anno_0)</code></pre>]]></description><link>http://localhost:2368/php-copyright/</link><guid isPermaLink="false">295af622-6742-4284-bc0b-2463be1a58dd</guid><category><![CDATA[projects]]></category><category><![CDATA[old-stuff]]></category><category><![CDATA[PHP]]></category><category><![CDATA[library]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 05 Jun 2016 11:18:18 GMT</pubDate><content:encoded><![CDATA[<p>Very simple PHP script that can be included within a page to update the copyright automatically. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP</p>
+  
+  <p>Year: 2010</p>
+</blockquote>
+
+<pre><code class="language-php">&lt;?  
+$nomesito = ""; /* Site's Name */
+$anno_0 = ""; /* Start year */
+$anno_0 = str_replace(" ", "", $anno_0);
+$anno = date(Y); /* Actual year */
+
+echo $nomesito." © ";  
+if ($anno_0 &gt;= $anno)  
+    {echo $anno;} 
+else  
+    {echo $anno_0." - ".$anno;} 
+?&gt;
+</code></pre>]]></content:encoded></item><item><title><![CDATA[PHP - Login]]></title><description><![CDATA[<p>Very simple PHP script that can be included within a page to protect the content. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP</p>
+  
+  <p>Year: 2010</p>
+</blockquote>
+
+<pre><code class="language-php">&lt;?  
+/*Login pasw*/
+$password[1] = "000"; 
+
+/*Protected page's link*/
+$link = "";
+?&gt; 
+
+&lt;?  
+if (!$submit) {  
+?&gt;</code></pre>]]></description><link>http://localhost:2368/php-login/</link><guid isPermaLink="false">1dac00ea-2438-43f9-afac-e404b8a735bc</guid><category><![CDATA[projects]]></category><category><![CDATA[old-stuff]]></category><category><![CDATA[PHP]]></category><category><![CDATA[library]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 05 Jun 2016 11:18:00 GMT</pubDate><content:encoded><![CDATA[<p>Very simple PHP script that can be included within a page to protect the content. <br>
+It is a basic script that I had implemented in the first approaches to web programming.</p>
+
+<blockquote>
+  <p>Language: PHP</p>
+  
+  <p>Year: 2010</p>
+</blockquote>
+
+<pre><code class="language-php">&lt;?  
+/*Login pasw*/
+$password[1] = "000"; 
+
+/*Protected page's link*/
+$link = "";
+?&gt; 
+
+&lt;?  
+if (!$submit) {  
+?&gt;
+
+&lt;form action="&lt;? $PHP_SELF ?&gt;" method="POST"&gt;  
+Password:&lt;br/&gt;  
+&lt;input name="pass" type="Password"&gt;&lt;br/&gt;  
+&lt;input name="submit" type="submit" name="submit" value="Login"&gt;  
+&lt;/form&gt;
+
+&lt;?  
+} else {
+   if ($pass == null) {
+   echo "Insert Password."; 
+?&gt; 
+
+&lt;form action="&lt;? $PHP_SELF ?&gt;" method="POST"&gt;  
+Password:&lt;br/&gt;  
+&lt;input name="pass" type="Password"&gt;&lt;br/&gt;  
+&lt;input name="submit" type="submit" name="submit" value="Login"&gt;  
+&lt;/form&gt;
+
+&lt;?  
+  }
+   else {
+   if ($pass == $password[1]) {
+
+   header('Location:'.$link);   
+   }     
+   //wrong username and password
+   else {
+    echo "Wrong password.";
+?&gt; 
+&lt;form action="&lt;? $PHP_SELF ?&gt;" method="POST"&gt;  
+Password:&lt;br/&gt;  
+&lt;input name="pass" type="Password"&gt;&lt;br/&gt;  
+&lt;input name="submit" type="submit" name="submit" value="Login"&gt;  
+&lt;/form&gt;  
+&lt;?  
+   }
+  }
+}?&gt;
+</code></pre>]]></content:encoded></item><item><title><![CDATA[ForumFree Skins]]></title><description><![CDATA[<p>First approach to the world of web graphics. <br>
+Through css and photoshop I had created some skins that can be used within the ForumFree and ForumCommunity circuits.</p>
+
+<p>Gallery: <a href="http://staff.forumfree.net/skinlab/?act=profile&amp;nick=%23negoart">#negoart</a></p>
+
+<blockquote>
+  <p>Language: html, css</p>
+  
+  <p>Program: Photoshop</p>
+  
+  <p>Year: 2010</p>
+</blockquote>]]></description><link>http://localhost:2368/forumfree-skin-2/</link><guid isPermaLink="false">0fc057f3-559d-4134-a78e-5fbdcd0cfd66</guid><category><![CDATA[projects]]></category><category><![CDATA[old-stuff]]></category><dc:creator><![CDATA[Tommaso Berlose]]></dc:creator><pubDate>Sun, 05 Jun 2016 11:05:46 GMT</pubDate><content:encoded><![CDATA[<p>First approach to the world of web graphics. <br>
+Through css and photoshop I had created some skins that can be used within the ForumFree and ForumCommunity circuits.</p>
+
+<p>Gallery: <a href="http://staff.forumfree.net/skinlab/?act=profile&amp;nick=%23negoart">#negoart</a></p>
+
+<blockquote>
+  <p>Language: html, css</p>
+  
+  <p>Program: Photoshop</p>
+  
+  <p>Year: 2010</p>
+</blockquote>]]></content:encoded></item></channel></rss>
