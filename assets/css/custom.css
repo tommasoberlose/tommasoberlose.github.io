@@ -1,0 +1,255 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.post-header .social-share {
+    margin-top: 1em;
+}
+.main-header-content .blog-logo {
+    float: none;
+    margin-top: 10px;
+}
+.main-header-content .blog-logo img {
+    width: 13rem;
+    height: auto;
+    display: inline;
+    border-radius: 50%;
+    padding: 0;
+    border: 3px solid rgb(255, 255, 255);
+}
+.main-header {
+    margin-bottom: 0em;
+}
+
+.main-header.home-header .main-header-content.inner {
+    max-width: 910px;
+    text-align: left;
+}
+
+.post-template .post-header {
+    text-align: center;
+}
+.back-button {
+    float: left;
+    padding: 0 15px 0 10px;
+    border: transparent 1px solid;
+    color: #9EABB3;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    border-radius: 3px;
+    transition: all ease 0.3s;
+    background: #efefef;
+    position: static;
+}
+.back-button:before {
+    position: relative;
+    bottom: -2px;
+    font-size: 13px;
+    line-height: 0;
+    margin-right: 8px;
+}
+.subscribe-button {
+    float: right;
+    padding: 0 20px;
+    border: transparent 1px solid;
+    color: #9EABB3 !important;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all ease 0.3s;
+    position: static;
+    background: #efefef;
+    display: none;
+}
+.subscribe-button:before {
+    font-size: 9px;
+    margin-right: 6px;
+}
+
+/* Add a border to the buttons on hover */
+
+.back-button:hover, .subscribe-button:hover {
+    border-color: #bfc8cd;
+    color: #9EABB3 !important;
+}
+.post-footer .author {
+    text-align: center;
+    margin-right: 0;
+}
+
+.tag-head.main-header, .author-head.main-header, .post-head.main-header {
+    height: 45vh !important;
+    overflow: auto;
+    position: relative;
+    min-height: 180px !important; 
+    max-height: 250px !important;
+}
+
+.site-footer {
+    padding: 1rem 4rem;
+}
+
+/* Menu */
+
+.menu.post {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: .8em;
+    padding-top: 1.6em;    
+    border-bottom: 0px !important;
+}
+
+.menu.post:after {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .menu ul li {
+        display: block;
+    }
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul.social_link {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .menu ul li {
+        display: block;
+    }
+}
+
+.menu ul li a {
+    font-family: 'Roboto Medium', sans-serif !important;
+    border: 0px;
+    color: #666;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 18px;
+    text-decoration: none;
+    /*color: rgba(0, 0, 0, 0.8);*/
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0em;
+}
+.menu ul.social_link li a {
+    font-size: 1.8rem;
+}
+.menu ul li a:hover {
+    color: #222222;
+}
+.menu ul li.nav-current {
+    display: none;
+}
+
+.rrssb-buttons.clearfix {
+    max-width: 124px;
+    float: right;
+}
+
+.social-share {
+    overflow: auto;
+}
+
+.rrssb-buttons li a .rrssb-icon {
+    left: 9px;
+}
+
+.menu section.author {
+    padding: 0 1.2em 0.8em 1.2em; 
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.author-view {
+    background-color: #f5f8fa;
+    border-bottom: #ebf2f6 1px solid;
+}
+
+
+/* social link */
+
+.social_link {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.social_link li {
+    display: inline;
+    font-size: 1.8rem;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.social_link li a {
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.1s ease-in-out;
+    color: rgba(0, 0, 0, 0.8);
+}
+.social_link li a:hover {
+    transform: scale(1.2);
+}
+
+.post-content img {
+    max-width: 100% !important;
+}
+
+.post-content ul li img {
+    width: 150px;
+    float: left;
+    position: static;
+    margin-left: -1.6em;
+    margin-right: 1.6em;
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    padding: 0px;
+}
+
+.post-excerpt p {
+    line-height: 1.5em;
+}
+
+body:not(.post-template) .post-title {
+    font-size: 3.1rem;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: #333333;
+}
+
+blockquote {
+    margin: 1.75em 0 1.75em -0em;
+    padding: 0 0 0 1.25em;
+    border-left: #dddddd .3em solid;
+}
+
+blockquote p {
+    line-height: 1em;
+    font-size: 0.9em;
+}
+
+.post-content ul {
+    list-style-type: none;
+}
