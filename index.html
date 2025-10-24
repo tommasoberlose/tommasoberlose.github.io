@@ -19,16 +19,8 @@
     <meta property="og:url" content="https://www.tommasoberlose.com">
     <meta property="og:site_name" content="Tommaso Berlose Portfolio">
     <meta property="og:image" content="https://www.tommasoberlose.com/images/avatar.jpg">
-    <meta property="og:image:alt" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
+    <meta property="og:image:alt" content="Avatar for Tommaso Berlose">
     <meta property="og:locale" content="en_US">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://www.tommasoberlose.com">
-    <meta name="twitter:title" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
-    <meta name="twitter:description" content="I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.">
-    <meta name="twitter:image" content="https://www.tommasoberlose.com/images/avatar.jpg">
-    <meta name="twitter:image:alt" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
     <!-- End SEO Tags -->
 
     <!-- Favicon -->
@@ -39,6 +31,7 @@
     <link rel="manifest" href="/favicon/site.webmanifest" />
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -188,7 +181,7 @@
                     <a href="https://www.linkedin.com/in/tommaso-berlose-b0547494/" target="_blank" class="block hover:text-primary transition-colors" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2ZM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 1 1 8.25 6.5 1.75 1.75 0 0 1 6.5 8.25ZM19 19h-3v-4.75c0-1.4-1.2-1.65-1.5-1.65c-.75 0-1.5.5-1.5 1.65V19h-3v-9h3v1.5c.5-1 1.5-1.5 2.5-1.5c2.5 0 3.5 1.5 3.5 4.5Z"></path></svg></a>
                     <a href="mailto:tommaso.berlose@gmail.com" class="block hover:text-primary transition-colors" aria-label="Email"><span class="material-icons-outlined text-2xl" aria-hidden="true">mail_outline</span></a>
                     <a href="BerloseTommaso_CV.pdf" download="BerloseTommaso_CV.pdf" class="block hover:text-primary transition-colors" aria-label="Download CV"><span class="material-icons-outlined text-2xl" aria-hidden="true">file_download</span></a>
-                    <button id="theme-toggle" class="p-2 rounded-full text-subtle hover:text-primary transition-colors" aria-label="Toggle theme"><span id="theme-toggle-sun" class="material-icons-outlined text-2xl">light_mode</span><span id="theme-toggle-moon" class="material-icons-outlined text-2xl hidden">dark_mode</span></button>
+                    <button id="theme-toggle" class="p-2 rounded-full text-subtle hover:text-primary transition-colors ml-2" aria-label="Toggle theme"><span id="theme-toggle-sun" class="material-icons-outlined text-2xl">light_mode</span><span id="theme-toggle-moon" class="material-icons-outlined text-2xl hidden">dark_mode</span></button>
                 </div>
             </header>
 
@@ -313,6 +306,7 @@
             const sunIcon = document.getElementById('theme-toggle-sun');
             const moonIcon = document.getElementById('theme-toggle-moon');
 
+            // 1. Function to apply theme (updates class and icons)
             const applyTheme = (theme) => {
                 if (theme === 'light') {
                     document.documentElement.classList.add('light');
@@ -325,25 +319,38 @@
                 }
             };
 
+            const systemScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+            // 2. Function to check and apply system theme
+            const checkSystemTheme = () => {
+                applyTheme(systemScheme.matches ? 'dark' : 'light');
+            };
+
             const savedTheme = localStorage.getItem('theme');
-            // Use system preference if no saved theme
-            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            let currentTheme = 'light'; // Default to light
 
             if (savedTheme) {
-                currentTheme = savedTheme;
-            } else if (systemPrefersDark) {
-                currentTheme = 'dark';
+                // 3. We have a saved preference, use it.
+                applyTheme(savedTheme);
+            } else {
+                // 4. No saved preference. Use system theme and listen for changes.
+                checkSystemTheme();
+                systemScheme.addEventListener('change', checkSystemTheme);
             }
 
-            applyTheme(currentTheme);
-            localStorage.setItem('theme', currentTheme); // Save the determined theme
-
+            // 5. Handle user toggle click
             themeToggleBtn.addEventListener('click', () => {
-                const isLight = document.documentElement.classList.toggle('light');
-                const newTheme = isLight ? 'light' : 'dark';
-                localStorage.setItem('theme', newTheme);
+                // Stop listening to system changes; user is making an explicit choice.
+                systemScheme.removeEventListener('change', checkSystemTheme);
+
+                // Check *current* theme and toggle it
+                const isCurrentlyLight = document.documentElement.classList.contains('light');
+                const newTheme = isCurrentlyLight ? 'dark' : 'light';
+
+                // Apply the new theme (this handles classList AND icons)
                 applyTheme(newTheme);
+
+                // Save the explicit choice
+                localStorage.setItem('theme', newTheme);
             });
 
             // Scrollspy for navigation
