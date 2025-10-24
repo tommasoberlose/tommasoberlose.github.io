@@ -1,4 +1,4 @@
-# Sito Web Dott.ssa Virginia Berlose - Istruzioni per la Produzione
+# Tommaso Berlose - Istruzioni per la Produzione
 
 Questo progetto è stato configurato per utilizzare Tailwind CSS con un processo di build, che è l'approccio consigliato per un sito web di produzione. Questo garantisce prestazioni ottimali creando un singolo file CSS di piccole dimensioni, contenente solo gli stili effettivamente utilizzati nella pagina.
 
