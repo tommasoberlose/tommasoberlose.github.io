@@ -1,283 +1,419 @@
-
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Tommaso Berlose</title>
-
-    <meta name="HandheldFriendly" content="True">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="N2_HtLgNbWoJJWGcouUrczZuCfMaLAxnqnAUhi5pxCE">
+    <title>Tommaso Berlose - Frontend Developer & UX/UI Designer</title>
 
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="/assets/img/favicons/ms-icon-144x144.png">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.">
+    <meta name="author" content="Tommaso Berlose">
+    <meta name="keywords" content="Tommaso Berlose, Frontend Developer, UX/UI Designer, React, React Native, TypeScript, JavaScript, Portfolio, Meta, Android Developer, Figma">
+    <link rel="canonical" href="https://www.tommasoberlose.com">
+    <meta name="theme-color" content="#3297F3">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=15efb75c25">
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css?v=15efb75c25">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css?v=15efb75c25">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="assets/css/prism.css?v=15efb75c25">
-    <link rel="stylesheet" type="text/css" href="assets/css/rrssb.css?v=15efb75c25">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <meta name="description" content="Dont' panic, Organize!">
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
-    <link rel="canonical" href="index.html">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    <link rel="next" href="page/2/index.html">
-    
-    <meta property="og:site_name" content="Tommaso Berlose">
+    <!-- Open Graph (for social sharing) -->
+    <meta property="og:title" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
+    <meta property="og:description" content="I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Tommaso Berlose">
-    <meta property="og:description" content="Dont' panic, Organize!">
-    <meta property="og:url" content="http://localhost:2368/">
-    <meta property="og:image" content="http://localhost:2368/content/images/2017/10/pexels-photo-30732-1.jpg">
-    <meta property="article:publisher" content="https://www.facebook.com/tommaso.berlose">
+    <meta property="og:url" content="https://www.tommasoberlose.com">
+    <meta property="og:site_name" content="Tommaso Berlose Portfolio">
+    <meta property="og:image" content="https://www.tommasoberlose.com/images/avatar.jpg">
+    <meta property="og:image:alt" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tommaso Berlose">
-    <meta name="twitter:description" content="Dont' panic, Organize!">
-    <meta name="twitter:url" content="http://localhost:2368/">
-    <meta name="twitter:image" content="http://localhost:2368/content/images/2017/10/pexels-photo-30732-1.jpg">
-    <meta property="og:image:width" content="2736">
-    <meta property="og:image:height" content="1629">
-    
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Website",
-    "publisher": {
-        "@type": "Organization",
-        "name": "Tommaso Berlose",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "http://localhost:2368/favicon.png",
-            "width": 60,
-            "height": 60
+    <meta name="twitter:url" content="https://www.tommasoberlose.com">
+    <meta name="twitter:title" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
+    <meta name="twitter:description" content="I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.">
+    <meta name="twitter:image" content="https://www.tommasoberlose.com/images/avatar.jpg">
+    <meta name="twitter:image:alt" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
+    <!-- End SEO Tags -->
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        :root { /* Dark Theme */
+            --primary-color: #075985; /* CHANGED */
+            --background: #0D1117;
+            --surface-1: #161B22;
+            --surface-gradient: linear-gradient(to right bottom, rgba(7, 89, 133, 0.1), rgba(7, 89, 133, 0.03)); /* CHANGED */
+            --text-heading: #f0f6fc; /* Brightest for titles */
+            --text-body: #c9d1d9;    /* Softer white for main text */
+            --text-subtle: #8b949e; /* Grey for less important info */
+            --skill-tag-bg: transparent;
+            --skill-tag-text: var(--text-subtle);
+            --skill-tag-border: #30363d;
         }
-    },
-    "url": "http://localhost:2368/",
-    "image": {
-        "@type": "ImageObject",
-        "url": "http://localhost:2368/content/images/2017/10/pexels-photo-30732-1.jpg",
-        "width": 2736,
-        "height": 1629
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "http://localhost:2368/"
-    },
-    "description": "Dont&#x27; panic, Organize!"
-}
-    </script>
 
-    <script type="text/javascript" src="public/ghost-sdk.js?v=15efb75c25"></script>
-<script type="text/javascript">
-ghost.init({
-	clientId: "ghost-frontend",
-	clientSecret: "752fd7b726b7"
-});
-</script>
-    <meta name="generator" content="Ghost 1.16">
-    <link rel="alternate" type="application/rss+xml" title="Tommaso Berlose" href="rss/index.html">
+        html.light { /* Light Theme (CV Inspired) */
+            --primary-color: #075985; /* CHANGED */
+            --background: #FFFFFF;
+            --surface-1: #f8f9fa;
+            --surface-gradient: linear-gradient(to right bottom, rgba(7, 89, 133, 0.05), rgba(7, 89, 133, 0.01)); /* CHANGED */
+            --text-heading: #082F49; /* CHANGED - Darkest for titles */
+            --text-body: #082F49;    /* CHANGED - Softer grey for main text */
+            --text-subtle: #334155;   /* CHANGED - Lighter grey for less important info */
+            --skill-tag-bg: transparent;
+            --skill-tag-text: var(--text-body);
+            --skill-tag-border: #dee2e6;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--text-body);
+            font-family: 'Inter', sans-serif;
+            background-image: radial-gradient(ellipse at 80% 20%, rgba(50, 151, 243, 0.15), transparent 50%);
+            background-attachment: fixed;
+        }
+
+        /* Remove hover effect for experience & education items */
+        #experience .card-item:hover,
+        #education .card-item:hover {
+            background-image: none;
+            box-shadow: none;
+            transform: none;
+        }
+
+        .skill-tag {
+            background-color: var(--skill-tag-bg);
+            color: var(--skill-tag-text);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid var(--skill-tag-border);
+            transition: all 0.1s ease-in-out;
+        }
+
+        /* Removed .skill-tag:hover rule */
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--background); }
+        ::-webkit-scrollbar-thumb { background: #222222; border-radius: 4px; }
+        html.light ::-webkit-scrollbar-thumb { background: #dddddd; }
+
+        /* Style tweaks for nav */
+        .nav-link.active .nav-indicator {
+            width: 4rem; /* w-16 */
+            background-color: var(--primary-color);
+        }
+        .nav-link.active .nav-text {
+            color: var(--text-heading);
+        }
+        .nav-link:hover .nav-text {
+            color: var(--text-heading);
+        }
+
+        /* Style tweaks for cards */
+        .card-item {
+            background-color: transparent;
+            transition: all 0.15s ease-in-out;
+            border-radius: 0.5rem; /* rounded-lg */
+        }
+        .card-item:hover {
+            background-image: var(--surface-gradient);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.01), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transform: translateY(-2px);
+        }
+
+        /* Specific card hover for project links */
+        #projects .card-item:hover .card-title {
+            color: var(--primary-color);
+        }
+
+        /* Remove hover for non-link experience cards */
+        #experience .card-item:hover {
+            background-image: none;
+            box-shadow: none;
+            transform: none;
+        }
+
+        /* But allow hover for experience items that *are* links */
+        #experience a.card-title {
+            display: inline-block; /* Allows hover transform to work */
+        }
+        #experience a.card-title:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+            text-decoration-color: var(--primary-color);
+            text-underline-offset: 4px;
+        }
+
+        /* Remove hover for education cards */
+         #education .card-item:hover {
+            background-image: none;
+            box-shadow: none;
+            transform: none;
+        }
+
+    </style>
 </head>
-<body class="home-template">
+<body class="antialiased">
 
+    <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+        <div class="lg:flex lg:justify-between lg:gap-16">
 
-    <div class="site-wrapper">
+            <!-- Left Sticky Header -->
+            <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-5/12 lg:flex-col lg:justify-between lg:py-24">
+                <div>
+                    <h1 class="text-4xl font-bold tracking-tight sm:text-5xl" style="color: var(--text-heading);">Tommaso Berlose</h1>
+                    <h2 class="mt-3 text-lg font-medium tracking-tight sm:text-xl" style="color: var(--text-heading);">Frontend Developer & UX/UI Designer</h2>
+                    <p class="mt-4 max-w-md leading-relaxed">I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.</p>
 
-        
-<header class="main-header home-header " style="background-image: url(content/images/2017/10/pexels-photo-30732-1.jpg)">
+                    <nav class="nav hidden lg:block" aria-label="In-page jump links">
+                        <ul class="mt-16 w-max">
+                            <li><a class="group flex items-center py-3 nav-link active" href="#about"><span class="nav-indicator mr-4 h-px w-8 bg-gray-600 transition-all group-hover:w-16 group-hover:bg-primary group-focus-visible:w-16 group-focus-visible:bg-primary"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-subtle transition-colors">About</span></a></li>
+                            <li><a class="group flex items-center py-3 nav-link" href="#experience"><span class="nav-indicator mr-4 h-px w-8 bg-gray-600 transition-all group-hover:w-16 group-hover:bg-primary group-focus-visible:w-16 group-focus-visible:bg-primary"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-subtle transition-colors">Experience</span></a></li>
+                            <li><a class="group flex items-center py-3 nav-link" href="#skills"><span class="nav-indicator mr-4 h-px w-8 bg-gray-600 transition-all group-hover:w-16 group-hover:bg-primary group-focus-visible:w-16 group-focus-visible:bg-primary"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-subtle transition-colors">Skills</span></a></li>
+                            <li><a class="group flex items-center py-3 nav-link" href="#projects"><span class="nav-indicator mr-4 h-px w-8 bg-gray-600 transition-all group-hover:w-16 group-hover:bg-primary group-focus-visible:w-16 group-focus-visible:bg-primary"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-subtle transition-colors">Projects</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mt-8 flex items-center gap-x-6 text-subtle">
+                     <a href="https://github.com/tommasoberlose" target="_blank" class="block hover:text-primary transition-colors" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/tommaso-berlose-b0547494/" target="_blank" class="block hover:text-primary transition-colors" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2ZM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 1 1 8.25 6.5 1.75 1.75 0 0 1 6.5 8.25ZM19 19h-3v-4.75c0-1.4-1.2-1.65-1.5-1.65c-.75 0-1.5.5-1.5 1.65V19h-3v-9h3v1.5c.5-1 1.5-1.5 2.5-1.5c2.5 0 3.5 1.5 3.5 4.5Z"></path></svg></a>
+                    <a href="mailto:tommaso.berlose@gmail.com" class="block hover:text-primary transition-colors" aria-label="Email"><span class="material-icons-outlined text-2xl" aria-hidden="true">mail_outline</span></a>
+                    <a href="BerloseTommaso_CV.pdf" download="BerloseTommaso_CV.pdf" class="block hover:text-primary transition-colors" aria-label="Download CV"><span class="material-icons-outlined text-2xl" aria-hidden="true">file_download</span></a>
+                    <button id="theme-toggle" class="p-2 rounded-full text-subtle hover:text-primary transition-colors" aria-label="Toggle theme"><span id="theme-toggle-sun" class="material-icons-outlined text-2xl">light_mode</span><span id="theme-toggle-moon" class="material-icons-outlined text-2xl hidden">dark_mode</span></button>
+                </div>
+            </header>
 
+            <!-- Right Content -->
+            <main id="content" class="pt-24 lg:w-7/12 lg:py-24">
 
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Tommaso Berlose</h1>
-            <h2 class="page-description">Dont' panic, Organize!</h2>
+                <!-- About Section -->
+                <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 pt-2">
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8 lg:hidden">About</h2>
+                    <p class="mb-4 leading-relaxed font-medium">With a foundation in Computer Engineering, I've spent over <span id="years-exp"></span> years channeling my passion for technology into creating intuitive and beautiful user interfaces. My experience as a consultant has allowed me to work with diverse teams and challenging projects, from public service mobile apps to advanced developer tools at Meta.</p>
+                    <p class="leading-relaxed font-medium">I thrive at the intersection of design and development, believing that the best products are born from a deep understanding of both. Whether it's crafting a pixel-perfect UI in Figma or bringing it to life with clean, efficient code, I'm driven by the desire to create things that are both functional and delightful to use.</p>
+                </section>
+
+                <!-- Experience Section -->
+                <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Experience</h2>
+                    <ol class="group/list">
+                        <li class="mb-12"><div class="card-item p-4 -inset-x-4 -inset-y-4 grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"><header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-subtle sm:col-span-2" aria-label="2017 — Present">2017 — Present</header><div class="z-10 sm:col-span-6">
+                            <h3 class="font-medium leading-snug" style="color: var(--text-heading);"><div><a class="card-title group/link inline-flex items-baseline font-medium leading-tight text-base" href="https://fancypixel.it/" target="_blank" rel="noreferrer"><span>Frontend Developer & Designer · Fancy Pixel Srl</span></a></div></h3>
+                            <ul class="mt-2 text-sm leading-normal list-disc pl-5">
+                                <li class="mb-2">Led design and development for web and mobile apps for clients including Meta, Electrolux, and Regione Lombardia.</li>
+                                <li class="mb-2">Engineered the SoundJ platform for Electrolux Group to facilitate remote auditory testing.</li>
+                                <li class="mb-2">Developed React-based web plugins for AI startup Grokstyle (acquired by Meta).</li>
+                                <!-- MODIFICATION: Added RTK Persist bullet to match CV -->
+                                <li>Developed "RTK Persist", an open-source library for Redux Toolkit to enable effortless state persistence.</li>
+                            </ul>
+
+                        </div></div></li>
+
+                        <li class="mb-12"><div class="card-item p-4 -inset-x-4 -inset-y-4 grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"><header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-subtle sm:col-span-2" aria-label="2022 — 2024">2022 — 2024</header><div class="z-10 sm:col-span-6">
+                            <h3 class="font-medium leading-snug" style="color: var(--text-heading);"><div><span class="card-title inline-flex items-baseline font-medium leading-tight text-base">Software Engineer & Designer · On assignment at Meta</span></div></h3>
+                            <p class="mt-2 text-sm leading-normal">At Meta Reality Labs, contributed to the frontend implementation and UX/UI design of Meta Haptics Studio, a key developer tool for creating haptic feedback for AR/XR experiences.</p>
+
+                        </div></div></li>
+
+                        <li class="mb-12"><div class="card-item p-4 -inset-x-4 -inset-y-4 grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"><header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-subtle sm:col-span-2" aria-label="2015 — Present">2015 — Present</header><div class="z-10 sm:col-span-6">
+                            <h3 class="font-medium leading-snug" style="color: var(--text-heading);"><div><span class="card-title inline-flex items-baseline font-medium leading-tight text-base">Android Developer · Side Project</span></div></h3>
+                            <p class="mt-2 text-sm leading-normal">Created and maintain "Another Widget," an Android application with over 1 million installs, providing a feature-rich, personalized alternative to the default "at a glance" widget.</p>
+
+                        </div></div></li>
+                    </ol>
+                </section>
+
+                <!-- Skills Section -->
+                <section id="skills" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Skills</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="font-medium mb-4" style="color: var(--text-heading);">Languages & Frameworks</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">JavaScript (ES6+)</span><span class="skill-tag">TypeScript</span><span class="skill-tag">React</span><span class="skill-tag">React Native</span><span class="skill-tag">Next.js</span><span class="skill-tag">Redux Toolkit</span><span class="skill-tag">GraphQL</span><span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">TailwindCSS</span><span class="skill-tag">Java</span><span class="skill-tag">Kotlin</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-medium mb-4" style="color: var(--text-heading);">Tools & Methods</h3>
+                             <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">Figma</span><span class="skill-tag">Sketch</span><span class="skill-tag">Git</span><span class="skill-tag">Agile / Scrum</span><span class="skill-tag">E2E & Unit Testing</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+                     <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Personal Projects</h2>
+                     <ul class="group/list -mt-4">
+                         <!-- MODIFICATION: Updated placeholder URL -->
+                         <li class="mb-12"><a class="block card-item p-4 -inset-x-4 -inset-y-4" href="https://github.com/tommasoberlose/another-widget" target="_blank" rel="noreferrer"><div class="grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"><div class="z-10 sm:order-2 sm:col-span-6"><h3 class="font-medium leading-snug" style="color: var(--text-heading);"><span class="card-title inline-flex items-baseline font-medium leading-tight text-base">Another Widget</span></h3><p class="mt-2 text-sm leading-normal">A highly customizable, feature-rich alternative to the default "at a glance" widget for Android, with over 1 million active users.</p></div><img alt="Another Widget promotional image" loading="lazy" width="200" height="48" decoding="async" class="z-10 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style="color:transparent" src="https://placehold.co/200x112/161B22/8b949e?text=Another+Widget"></div></a></li>
+
+                         <!-- MODIFICATION: Updated placeholder URL -->
+                         <li class="mb-12"><a class="block card-item p-4 -inset-x-4 -inset-y-4" href="https://github.com/tommasoberlose/rtk-persist" target="_blank" rel="noreferrer"><div class="grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"><div class="z-10 sm:order-2 sm:col-span-6"><h3 class="font-medium leading-snug" style="color: var(--text-heading);"><span class="card-title inline-flex items-baseline font-medium leading-tight text-base">RTK Persist</span></h3><p class="mt-2 text-sm leading-normal">An open-source library for Redux Toolkit to enable effortless state persistence and rehydration, designed for quick integration into any React project.</p></div><img alt="RTK Persist logo" loading="lazy" width="200" height="48" decoding="async" class="z-10 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style="color:transparent" src="https://placehold.co/200x112/161B22/8b949e?text=RTK+Persist"></div></a></li>
+
+                         <!-- MODIFICATION: Removed Headphones Detector project -->
+                     </ul>
+                </section>
+
+                <!-- Education Section -->
+                <section id="education" class="scroll-mt-16 lg:scroll-mt-24">
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Education</h2>
+                    <div class="space-y-8">
+                        <div class="card-item p-4 -inset-x-4 -inset-y-4">
+                             <p class="text-sm font-semibold text-subtle">2014 — 2016</p>
+                             <h3 class="" style="color: var(--text-heading);">Master's Degree in Computer Engineering</h3>
+                             <p class="text-sm text-subtle">University of Ferrara</p>
+                        </div>
+                         <div class="card-item p-4 -inset-x-4 -inset-y-4">
+                             <p class="text-sm font-semibold text-subtle">2010 — 2014</p>
+                             <h3 class="" style="color: var(--text-heading);">Bachelor's Degree in Information Engineering</h3>
+                             <p class="text-sm text-subtle">University of Ferrara</p>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="mt-24 text-center text-xs text-subtle">
+                    <p>Designed in Figma, built with Tailwind CSS. Hosted on GitHub Pages.</p>
+                </footer>
+            </main>
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="index.html#content" data-offset="-14"><span class="hidden">Scroll Down</span></a>
-</header>
 
-<main id="content" class="content" role="main">
-    <div class="author-view">
-    <div class="menu post author">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Calculate years of experience
+            try {
+                const startYear = 2015;
+                const currentYear = new Date().getFullYear();
+                const yearsExperience = currentYear - startYear;
+                const yearsExpElement = document.getElementById('years-exp');
+                if (yearsExpElement) {
+                    yearsExpElement.textContent = yearsExperience;
+                }
+            } catch (e) {
+                console.error("Error calculating years of experience:", e);
+                const yearsExpElement = document.getElementById('years-exp');
+                if (yearsExpElement) {
+                    yearsExpElement.textContent = "9+"; // Fallback (updated from 10+ just in case)
+                }
+            }
 
-        <section class="author">
-            <h6>About Me</h6>
-            Software Engineer, Mobile and Front-end Developer, Traveler.<br>
-            Follow my projects or get in touch!
-        </section>
+            // Theme Toggle Logic
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const sunIcon = document.getElementById('theme-toggle-sun');
+            const moonIcon = document.getElementById('theme-toggle-moon');
 
-            <ul>
-                    <li class="nav-home nav-current" role="presentation"><a href="index.html">Home</a></li>
-                    <li class="nav-github-projects" role="presentation"><a href="https://github.com/tommasoberlose/">GitHub Projects</a></li>
-                    <li class="nav-android-dev" role="presentation"><a href="https://play.google.com/store/apps/dev?id=5222811638237897947">Android Dev</a></li>
-                    <li class="nav-linkedin" role="presentation"><a href="https://www.linkedin.com/in/tommaso-berlose-b0547494/">LinkedIn</a></li>
-            </ul>
-    </div>
-</div>
+            const applyTheme = (theme) => {
+                if (theme === 'light') {
+                    document.documentElement.classList.add('light');
+                    sunIcon.classList.add('hidden');
+                    moonIcon.classList.remove('hidden');
+                } else {
+                    document.documentElement.classList.remove('light');
+                    sunIcon.classList.remove('hidden');
+                    moonIcon.classList.add('hidden');
+                }
+            };
 
-    <div class="extra-pagination inner">
-    <nav class="pagination" role="navigation">
-    <span class="page-number">Page 1 of 5</span>
-        <a class="older-posts" href="page/2/">Older Posts <span aria-hidden="true">→</span></a>
-</nav>
+            const savedTheme = localStorage.getItem('theme');
+            // Use system preference if no saved theme
+            const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            let currentTheme = 'light'; // Default to light
 
-</div>
+            if (savedTheme) {
+                currentTheme = savedTheme;
+            } else if (systemPrefersDark) {
+                currentTheme = 'dark';
+            }
 
-<article class="post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="website-fancy-pixel-s-r-l/">Website Fancy Pixel S.r.l.</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>The new website of the company Fancy Pixel S.r.l. developed with wordpress and a custom theme. I created all the images and wrote the...<br><a class="read-more" href="website-fancy-pixel-s-r-l/">Read more »</a></p>
-    </section>
-    <footer class="post-meta">
-        <img class="author-thumb" src="content/images/2017/10/avatar.jpg" alt="Tommaso Berlose" nopin="nopin">
-        <a href="author/tommasoberlose/">Tommaso Berlose</a>
-        
-        <time class="post-date" datetime="2018-11-29">29 November 2018</time>
-    </footer>
-</article>
-<article class="post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="creepstagram/">Creepstagram</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>Take screenshots of the Instragam stories without getting caught. Use the overlay controls to get screenshots of whatever you want without being caught. Or just share...<br><a class="read-more" href="creepstagram/">Read more »</a></p>
-    </section>
-    <footer class="post-meta">
-        <img class="author-thumb" src="content/images/2017/10/avatar.jpg" alt="Tommaso Berlose" nopin="nopin">
-        <a href="author/tommasoberlose/">Tommaso Berlose</a>
-        
-        <time class="post-date" datetime="2018-11-29">29 November 2018</time>
-    </footer>
-</article>
-<article class="post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="lockdown-mode/">Lockdown Mode</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>​ If you often leave the phone around or if you love privacy and security, turn on the lockdown mode to make sure no one can access...<br><a class="read-more" href="lockdown-mode/">Read more »</a></p>
-    </section>
-    <footer class="post-meta">
-        <img class="author-thumb" src="content/images/2017/10/avatar.jpg" alt="Tommaso Berlose" nopin="nopin">
-        <a href="author/tommasoberlose/">Tommaso Berlose</a>
-        
-        <time class="post-date" datetime="2018-11-29">29 November 2018</time>
-    </footer>
-</article>
-<article class="post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="shut-up/">Shut Up</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>Silence your phone at any time with just a tap by using a shortcut on your homepage or through a beautiful quick setting in your status...<br><a class="read-more" href="shut-up/">Read more »</a></p>
-    </section>
-    <footer class="post-meta">
-        <img class="author-thumb" src="content/images/2017/10/avatar.jpg" alt="Tommaso Berlose" nopin="nopin">
-        <a href="author/tommasoberlose/">Tommaso Berlose</a>
-        
-        <time class="post-date" datetime="2018-01-08">08 January 2018</time>
-    </footer>
-</article>
-<article class="post tag-android tag-projects tag-google-api">
-    <header class="post-header">
-        <h2 class="post-title"><a href="another-widget/">Another Widget</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>Another Widget intelligently summarizes the information you need most. Watch the next events, the weather or the information you want in an intuitive and elegant way....<br><a class="read-more" href="another-widget/">Read more »</a></p>
-    </section>
-    <footer class="post-meta">
-        <img class="author-thumb" src="content/images/2017/10/avatar.jpg" alt="Tommaso Berlose" nopin="nopin">
-        <a href="author/tommasoberlose/">Tommaso Berlose</a>
-         on <a href="tag/android/">android</a>, <a href="tag/projects/">projects</a>, <a href="tag/google-api/">google-api</a>
-        <time class="post-date" datetime="2017-10-31">31 October 2017</time>
-    </footer>
-</article>
+            applyTheme(currentTheme);
+            localStorage.setItem('theme', currentTheme); // Save the determined theme
 
-<nav class="pagination" role="navigation">
-    <span class="page-number">Page 1 of 5</span>
-        <a class="older-posts" href="page/2/">Older Posts <span aria-hidden="true">→</span></a>
-</nav>
-
-
-</main>
-
-
-        <footer class="site-footer clearfix">
-            <section class="copyright"><a href="index.html">Tommaso Berlose</a> © 2018</section>
-            <section class="poweredby"><a href="https://github.com/h4t0n/odin">Odin</a> theme created by Andrea Tarquini (<a href="https://twitter.com/h4t0n">@h4t0n</a>). Proudly published with <a href="https://ghost.org">Ghost</a></section>
-        </footer>
-
-    </div>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    
-
-    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=15efb75c25"></script>
-    <script type="text/javascript" src="assets/js/index.js?v=15efb75c25"></script>
-    <script type="text/javascript" src="assets/js/prism.js?v=15efb75c25"></script>
-    <script type="text/javascript" src="assets/js/rrssb.min.js?v=15efb75c25"></script>
-
-    <script type="text/javascript">
-        jQuery(document).ready(function($) {
-
-            $('.rrssb-buttons').rrssb({
-                // required:
-                title: '',
-                url: 'http://localhost:2368',
-
-                // optional:
-                 description: '',
-                // emailBody: 'Usually email body is just the description + url, but you can customize it if you want'
+            themeToggleBtn.addEventListener('click', () => {
+                const isLight = document.documentElement.classList.toggle('light');
+                const newTheme = isLight ? 'light' : 'dark';
+                localStorage.setItem('theme', newTheme);
+                applyTheme(newTheme);
             });
 
+            // Scrollspy for navigation
+            const sections = document.querySelectorAll('main section[id]');
+            const navLinks = document.querySelectorAll('nav ul li a.nav-link');
+            const navLinksMap = new Map();
+            navLinks.forEach(link => navLinksMap.set(link.hash, link));
+
+            const observer = new IntersectionObserver((entries) => {
+                let anyIntersecting = false;
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && entry.intersectionRatio > 0.4) {
+                        const id = `#${entry.target.getAttribute('id')}`;
+                        const navLink = navLinksMap.get(id);
+                        if(navLink) {
+                            navLinks.forEach(link => link.classList.remove('active'));
+                            navLink.classList.add('active');
+                            anyIntersecting = true;
+                        }
+                    }
+                });
+
+                // Fallback for top of page or if no section is sufficiently visible
+                if (!anyIntersecting) {
+                     // Check if we're near the top
+                    if (window.scrollY < 300) {
+                        navLinks.forEach(link => link.classList.remove('active'));
+                        const aboutLink = navLinksMap.get('#about');
+                        if (aboutLink) {
+                            aboutLink.classList.add('active');
+                        }
+                    }
+                }
+
+            }, {
+                rootMargin: "0px 0px -50% 0px", // Trigger when section is in the middle 50% of viewport
+                threshold: [0.4, 0.7]
+            });
+
+            sections.forEach(section => observer.observe(section));
+
+            // Apply 'active' to 'About' on initial load
+            const aboutLink = navLinksMap.get('#about');
+            if (aboutLink) {
+                aboutLink.classList.add('active');
+            }
+
+            // ScrollReveal animations
+            try {
+                if (ScrollReveal) {
+                    const sr = ScrollReveal({
+                        origin: 'bottom', distance: '20px', duration: 500, delay: 100,
+                        easing: 'cubic-bezier(0.5, 0, 0, 1)', reset: false, viewFactor: 0.2
+                    });
+
+                    sr.reveal('header > div > *', { interval: 75, origin: 'top' });
+                    sr.reveal('header .mt-8 > *', { interval: 50, origin: 'bottom' });
+
+                    // Reveal sections sequentially
+                    sr.reveal('#about > *', { interval: 75 });
+                    sr.reveal('#experience .card-item', { interval: 100 });
+                    sr.reveal('#skills .grid > div', { interval: 100, origin: 'left' });
+                    sr.reveal('#skills .skill-tag', { interval: 30, scale: 0.9 });
+                    sr.reveal('#projects .card-item', { interval: 100 });
+                    sr.reveal('#education .card-item', { interval: 100 });
+                    sr.reveal('footer', { distance: '10px' });
+                }
+            } catch (e) {
+                console.warn("ScrollReveal not loaded or failed:", e);
+            }
         });
     </script>
-
-    <script>
-        // TO ACTIVATE ADD var ga_id = "your_ga_id" to ghost code injection header
-        if (window.ga_id) {
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', window.ga_id, 'auto');
-            ga('require', 'linkid', 'linkid.js');
-            ga('send', 'pageview');
-        }
-    </script>
-
-    <script>
-        if(window.social_link){
-            var url_regexp = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
-            $.each(window.social_link,function(type, url){
-                $('<li>').append($('<a>',{
-                                    html: '<i class="fa fa-2x fa-'+type+'"></i>',
-                                    title: type,
-                                    href: url,
-                                    target: "_blank"
-                                })
-                            ).appendTo('.social_link');
-            })
-        }
-    </script>
-
 </body>
+</html>
