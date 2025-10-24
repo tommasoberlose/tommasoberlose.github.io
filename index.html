@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tommaso Berlose - Frontend Developer & UX/UI Designer</title>
 
-    <!-- SEO Meta Tags -->
     <meta name="description" content="I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.">
     <meta name="author" content="Tommaso Berlose">
     <meta name="keywords" content="Tommaso Berlose, Frontend Developer, UX/UI Designer, React, React Native, TypeScript, JavaScript, Portfolio, Meta, Android Developer, Figma">
     <link rel="canonical" href="https://www.tommasoberlose.com">
     <meta name="theme-color" content="#3297F3">
 
-    <!-- Open Graph (for social sharing) -->
     <meta property="og:title" content="Tommaso Berlose - Frontend Developer & UX/UI Designer">
     <meta property="og:description" content="I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.">
     <meta property="og:type" content="website">
@@ -21,12 +19,10 @@
     <meta property="og:image" content="https://www.tommasoberlose.com/images/avatar.jpg">
     <meta property="og:image:alt" content="Avatar for Tommaso Berlose">
     <meta property="og:locale" content="en_US">
-    <!-- End SEO Tags -->
 
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="shortcut" href="/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
 
@@ -38,30 +34,38 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
     <style>
-        :root { /* Dark Theme */
-            --primary-color: #075985; /* CHANGED */
+        :root {
+            --primary-color: #075985;
             --background: #0D1117;
             --surface-1: #161B22;
-            --surface-gradient: linear-gradient(to right bottom, rgba(7, 89, 133, 0.1), rgba(7, 89, 133, 0.03)); /* CHANGED */
-            --text-heading: #f0f6fc; /* Brightest for titles */
-            --text-body: #c9d1d9;    /* Softer white for main text */
-            --text-subtle: #8b949e; /* Grey for less important info */
+            --surface-gradient: linear-gradient(to right bottom, rgba(7, 89, 133, 0.1), rgba(7, 89, 133, 0.03));
+            --text-heading: #f0f6fc;
+            --text-body: #c9d1d9;
+            --text-subtle: #8b949e;
             --skill-tag-bg: transparent;
             --skill-tag-text: var(--text-subtle);
             --skill-tag-border: #30363d;
+            --avatar-border: #30363d;
+            --chip-bg: rgba(248, 180, 4, 0.1);
+            --chip-text: #f8b404;
+            --chip-border: rgba(248, 180, 4, 0.3);
         }
 
-        html.light { /* Light Theme (CV Inspired) */
-            --primary-color: #075985; /* CHANGED */
+        html.light {
+            --primary-color: #075985;
             --background: #FFFFFF;
             --surface-1: #f8f9fa;
-            --surface-gradient: linear-gradient(to right bottom, rgba(7, 89, 133, 0.05), rgba(7, 89, 133, 0.01)); /* CHANGED */
-            --text-heading: #082F49; /* CHANGED - Darkest for titles */
-            --text-body: #082F49;    /* CHANGED - Softer grey for main text */
-            --text-subtle: #334155;   /* CHANGED - Lighter grey for less important info */
+            --surface-gradient: linear-gradient(to right bottom, rgba(7, 89, 133, 0.05), rgba(7, 89, 133, 0.01));
+            --text-heading: #082F49;
+            --text-body: #082F49;
+            --text-subtle: #334155;
             --skill-tag-bg: transparent;
             --skill-tag-text: var(--text-body);
             --skill-tag-border: #dee2e6;
+            --avatar-border: #dee2e6;
+            --chip-bg: rgba(248, 180, 4, 0.1);
+            --chip-text: #D99B03;
+            --chip-border: rgba(248, 180, 4, 0.3);
         }
 
         body {
@@ -72,7 +76,6 @@
             background-attachment: fixed;
         }
 
-        /* Remove hover effect for experience & education items */
         #experience .card-item:hover,
         #education .card-item:hover {
             background-image: none;
@@ -91,17 +94,13 @@
             transition: all 0.1s ease-in-out;
         }
 
-        /* Removed .skill-tag:hover rule */
-
-        /* Custom scrollbar */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: var(--background); }
         ::-webkit-scrollbar-thumb { background: #222222; border-radius: 4px; }
         html.light ::-webkit-scrollbar-thumb { background: #dddddd; }
 
-        /* Style tweaks for nav */
         .nav-link.active .nav-indicator {
-            width: 4rem; /* w-16 */
+            width: 4rem;
             background-color: var(--primary-color);
         }
         .nav-link.active .nav-text {
@@ -111,11 +110,10 @@
             color: var(--text-heading);
         }
 
-        /* Style tweaks for cards */
         .card-item {
             background-color: transparent;
             transition: all 0.15s ease-in-out;
-            border-radius: 0.5rem; /* rounded-lg */
+            border-radius: 0.5rem;
         }
         .card-item:hover {
             background-image: var(--surface-gradient);
@@ -123,21 +121,18 @@
             transform: translateY(-2px);
         }
 
-        /* Specific card hover for project links */
         #projects .card-item:hover .card-title {
             color: var(--primary-color);
         }
 
-        /* Remove hover for non-link experience cards */
         #experience .card-item:hover {
             background-image: none;
             box-shadow: none;
             transform: none;
         }
 
-        /* But allow hover for experience items that *are* links */
         #experience a.card-title {
-            display: inline-block; /* Allows hover transform to work */
+            display: inline-block;
         }
         #experience a.card-title:hover {
             color: var(--primary-color);
@@ -146,11 +141,30 @@
             text-underline-offset: 4px;
         }
 
-        /* Remove hover for education cards */
          #education .card-item:hover {
             background-image: none;
             box-shadow: none;
             transform: none;
+        }
+
+        .avatar-border {
+            border: 2px solid var(--avatar-border);
+        }
+
+        .wip-chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            background-color: var(--chip-bg);
+            color: var(--chip-text);
+            border: 1px solid var(--chip-border);
+        }
+        .wip-chip .material-icons-outlined {
+            font-size: 0.875rem;
+            margin-right: 0.25rem;
         }
 
     </style>
@@ -160,9 +174,13 @@
     <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div class="lg:flex lg:justify-between lg:gap-16">
 
-            <!-- Left Sticky Header -->
             <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-5/12 lg:flex-col lg:justify-between lg:py-24">
                 <div>
+                    <img src="https://www.tommasoberlose.com/images/avatar.jpg" alt="Tommaso Berlose" class="w-28 h-28 rounded-full mb-4 avatar-border">
+                    <div class="wip-chip mb-6">
+                        <span class="material-icons-outlined" aria-hidden="true">build</span>
+                        <span>Under Construction</span>
+                    </div>
                     <h1 class="text-4xl font-bold tracking-tight sm:text-5xl" style="color: var(--text-heading);">Tommaso Berlose</h1>
                     <h2 class="mt-3 text-lg font-medium tracking-tight sm:text-xl" style="color: var(--text-heading);">Frontend Developer & UX/UI Designer</h2>
                     <p class="mt-4 max-w-md leading-relaxed">I specialize in building accessible, human-centered products and beautiful digital experiences for web and mobile platforms.</p>
@@ -185,17 +203,14 @@
                 </div>
             </header>
 
-            <!-- Right Content -->
             <main id="content" class="pt-24 lg:w-7/12 lg:py-24">
 
-                <!-- About Section -->
                 <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 pt-2">
                     <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8 lg:hidden">About</h2>
                     <p class="mb-4 leading-relaxed font-medium">With a foundation in Computer Engineering, I've spent over <span id="years-exp"></span> years channeling my passion for technology into creating intuitive and beautiful user interfaces. My experience as a consultant has allowed me to work with diverse teams and challenging projects, from public service mobile apps to advanced developer tools at Meta.</p>
                     <p class="leading-relaxed font-medium">I thrive at the intersection of design and development, believing that the best products are born from a deep understanding of both. Whether it's crafting a pixel-perfect UI in Figma or bringing it to life with clean, efficient code, I'm driven by the desire to create things that are both functional and delightful to use.</p>
                 </section>
 
-                <!-- Experience Section -->
                 <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
                     <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Experience</h2>
                     <ol class="group/list">
@@ -205,7 +220,6 @@
                                 <li class="mb-2">Led design and development for web and mobile apps for clients including Meta, Electrolux, and Regione Lombardia.</li>
                                 <li class="mb-2">Engineered the SoundJ platform for Electrolux Group to facilitate remote auditory testing.</li>
                                 <li class="mb-2">Developed React-based web plugins for AI startup Grokstyle (acquired by Meta).</li>
-                                <!-- MODIFICATION: Added RTK Persist bullet to match CV -->
                                 <li>Developed "RTK Persist", an open-source library for Redux Toolkit to enable effortless state persistence.</li>
                             </ul>
 
@@ -225,7 +239,6 @@
                     </ol>
                 </section>
 
-                <!-- Skills Section -->
                 <section id="skills" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
                     <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Skills</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -244,21 +257,16 @@
                     </div>
                 </section>
 
-                <!-- Projects Section -->
                 <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
                      <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Personal Projects</h2>
                      <ul class="group/list -mt-4">
-                         <!-- MODIFICATION: Updated placeholder URL -->
                          <li class="mb-12"><a class="block card-item p-4 -inset-x-4 -inset-y-4" href="https://github.com/tommasoberlose/another-widget" target="_blank" rel="noreferrer"><div class="grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"><div class="z-10 sm:order-2 sm:col-span-6"><h3 class="font-medium leading-snug" style="color: var(--text-heading);"><span class="card-title inline-flex items-baseline font-medium leading-tight text-base">Another Widget</span></h3><p class="mt-2 text-sm leading-normal">A highly customizable, feature-rich alternative to the default "at a glance" widget for Android, with over 1 million active users.</p></div><img alt="Another Widget promotional image" loading="lazy" width="200" height="48" decoding="async" class="z-10 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style="color:transparent" src="https://placehold.co/200x112/161B22/8b949e?text=Another+Widget"></div></a></li>
 
-                         <!-- MODIFICATION: Updated placeholder URL -->
                          <li class="mb-12"><a class="block card-item p-4 -inset-x-4 -inset-y-4" href="https://github.com/tommasoberlose/rtk-persist" target="_blank" rel="noreferrer"><div class="grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4"><div class="z-10 sm:order-2 sm:col-span-6"><h3 class="font-medium leading-snug" style="color: var(--text-heading);"><span class="card-title inline-flex items-baseline font-medium leading-tight text-base">RTK Persist</span></h3><p class="mt-2 text-sm leading-normal">An open-source library for Redux Toolkit to enable effortless state persistence and rehydration, designed for quick integration into any React project.</p></div><img alt="RTK Persist logo" loading="lazy" width="200" height="48" decoding="async" class="z-10 rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" style="color:transparent" src="https://placehold.co/200x112/161B22/8b949e?text=RTK+Persist"></div></a></li>
 
-                         <!-- MODIFICATION: Removed Headphones Detector project -->
                      </ul>
                 </section>
 
-                <!-- Education Section -->
                 <section id="education" class="scroll-mt-16 lg:scroll-mt-24">
                     <h2 class="text-sm font-bold uppercase tracking-widest text-subtle mb-8">Education</h2>
                     <div class="space-y-8">
@@ -284,7 +292,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // Calculate years of experience
             try {
                 const startYear = 2015;
                 const currentYear = new Date().getFullYear();
@@ -297,16 +304,14 @@
                 console.error("Error calculating years of experience:", e);
                 const yearsExpElement = document.getElementById('years-exp');
                 if (yearsExpElement) {
-                    yearsExpElement.textContent = "9+"; // Fallback (updated from 10+ just in case)
+                    yearsExpElement.textContent = "9+";
                 }
             }
 
-            // Theme Toggle Logic
             const themeToggleBtn = document.getElementById('theme-toggle');
             const sunIcon = document.getElementById('theme-toggle-sun');
             const moonIcon = document.getElementById('theme-toggle-moon');
 
-            // 1. Function to apply theme (updates class and icons)
             const applyTheme = (theme) => {
                 if (theme === 'light') {
                     document.documentElement.classList.add('light');
@@ -321,7 +326,6 @@
 
             const systemScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
-            // 2. Function to check and apply system theme
             const checkSystemTheme = () => {
                 applyTheme(systemScheme.matches ? 'dark' : 'light');
             };
@@ -329,31 +333,23 @@
             const savedTheme = localStorage.getItem('theme');
 
             if (savedTheme) {
-                // 3. We have a saved preference, use it.
                 applyTheme(savedTheme);
             } else {
-                // 4. No saved preference. Use system theme and listen for changes.
                 checkSystemTheme();
                 systemScheme.addEventListener('change', checkSystemTheme);
             }
 
-            // 5. Handle user toggle click
             themeToggleBtn.addEventListener('click', () => {
-                // Stop listening to system changes; user is making an explicit choice.
                 systemScheme.removeEventListener('change', checkSystemTheme);
 
-                // Check *current* theme and toggle it
                 const isCurrentlyLight = document.documentElement.classList.contains('light');
                 const newTheme = isCurrentlyLight ? 'dark' : 'light';
 
-                // Apply the new theme (this handles classList AND icons)
                 applyTheme(newTheme);
 
-                // Save the explicit choice
                 localStorage.setItem('theme', newTheme);
             });
 
-            // Scrollspy for navigation
             const sections = document.querySelectorAll('main section[id]');
             const navLinks = document.querySelectorAll('nav ul li a.nav-link');
             const navLinksMap = new Map();
@@ -373,9 +369,7 @@
                     }
                 });
 
-                // Fallback for top of page or if no section is sufficiently visible
                 if (!anyIntersecting) {
-                     // Check if we're near the top
                     if (window.scrollY < 300) {
                         navLinks.forEach(link => link.classList.remove('active'));
                         const aboutLink = navLinksMap.get('#about');
@@ -386,19 +380,17 @@
                 }
 
             }, {
-                rootMargin: "0px 0px -50% 0px", // Trigger when section is in the middle 50% of viewport
+                rootMargin: "0px 0px -50% 0px",
                 threshold: [0.4, 0.7]
             });
 
             sections.forEach(section => observer.observe(section));
 
-            // Apply 'active' to 'About' on initial load
             const aboutLink = navLinksMap.get('#about');
             if (aboutLink) {
                 aboutLink.classList.add('active');
             }
 
-            // ScrollReveal animations
             try {
                 if (ScrollReveal) {
                     const sr = ScrollReveal({
@@ -409,7 +401,6 @@
                     sr.reveal('header > div > *', { interval: 75, origin: 'top' });
                     sr.reveal('header .mt-8 > *', { interval: 50, origin: 'bottom' });
 
-                    // Reveal sections sequentially
                     sr.reveal('#about > *', { interval: 75 });
                     sr.reveal('#experience .card-item', { interval: 100 });
                     sr.reveal('#skills .grid > div', { interval: 100, origin: 'left' });
